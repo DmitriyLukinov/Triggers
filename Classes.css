@@ -1,0 +1,109 @@
+canvas {
+  border: solid;
+}
+
+.all-buttons{
+  position: relative;
+  left: 1010px;
+  bottom: 510px;
+}
+
+.impulse{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px; 
+  width: 240px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #e6a6a6;
+}
+
+.timer-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 192px; 
+  width: 240px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #90b1dd;
+}
+
+.timer-container button{
+  height: 22px;
+  margin: 1px;
+}
+
+.timer-number {
+  width: 50px;
+}
+.timer-number, span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-container  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 48px; 
+  width: 240px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px; /* добавляем закругленные края */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #dadad3;
+}
+
+.button-container button {
+  max-width: 100px;
+  height: 22px;
+  margin: 1px;
+}
+
+button,
+input {
+  vertical-align: middle;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px; 
+  width: 240px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #dadad3;
+}
+
+button#emulate2{
+  width: 262px;
+  height: 30px;
+  font-size: large;
+  border: 2px solid black;
+  background-color: #db6d6d;
+  box-shadow: 0 0 10px 3px rgba(255, 0, 0, 0.9);
+}
+
+button#emulate2:hover {  /* псевдокласс*/
+  background-color: rgb(238, 190, 190);
+}
+
+p{
+  position: relative;
+  left: 0px;
+  bottom: 500px;
+}
