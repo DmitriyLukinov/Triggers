@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Triggers</title>
+    <link rel="stylesheet" href="Classes.css">
+  </head>
+
+  <body>
+    <canvas canvas id="canvas" width="1000" height="500"></canvas>
+    <div class ="all-buttons">
+      <div class ="impulse"><button id="impulse generator">Impulse Generator</button></div> 
+      <br>
+      <div class="button-container">
+        <div><button id="trigger1">trigger1</button></div>
+        <div><button id="trigger2">trigger2</button></div> 
+        <div><button id="trigger3">trigger3</button></div>  
+        <div><button id="trigger4">trigger4</button></div>
+        <div><button id="trigger5">trigger5</button></div> 
+        <div><button id="trigger6">trigger6</button></div>
+        <div><button id="trigger7">trigger7</button></div>
+        <div><button id="trigger8">trigger8</button></div> 
+      </div>         
+      <br>
+      <div class ="timer-container">
+        <div><button id="timer1">timer1</button> <input id="timer1number" class="timer-number"> <span>seconds</span></div>
+        <div><button id="timer2">timer2</button> <input id="timer2number" class="timer-number"> <span>seconds</span></div>
+        <div><button id="timer3">timer3</button> <input id="timer3number" class="timer-number"> <span>seconds</span></div>
+        <div><button id="timer4">timer4</button> <input id="timer4number" class="timer-number"> <span>seconds</span></div> 
+        <div><button id="timer5">timer5</button> <input id="timer5number" class="timer-number"> <span>seconds</span></div> 
+        <div><button id="timer6">timer6</button> <input id="timer6number" class="timer-number"> <span>seconds</span></div> 
+        <div><button id="timer7">timer7</button> <input id="timer7number" class="timer-number"> <span>seconds</span></div> 
+        <div><button id="timer8">timer8</button> <input id="timer8number" class="timer-number"> <span>seconds</span></div>
+    </div>
+    <br>
+    <div class ="line"><button id="line">line</button></div> 
+    <br>
+    <div><button id="emulate2">emulate2</button></div>
+    </div>
+    <p>Наглядная демонстрация работы триггеров. Выставляйте элементы на поле используя кнопки "Impulse Generator", "Trigger", "Timer". 
+      Нажмите "line" чтобы соединить элемнты линиями. Чтобы соединить два элемента нужно нажать мышкой на выход одного элента (например Q1), провести
+      линию и отжать кнопку мыши на входе другого элента (например s2). Отменить действие можно клавишами ctrl+z. Подробнее про триггеры можно
+      почитать <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80#RS-%D1%82%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D1%8B" target="_blank">здесь</a>.</p>
+    <script src="Classes.js"></script>
+    <!--script src="minor.js"></script-->
+  </body>
+</html>
