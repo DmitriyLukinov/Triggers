@@ -865,5 +865,5 @@ function go(){
     ActiveElementArray.length = 0;
     ActiveElementArray = AuxActiveElementArray.slice();
     AuxActiveElementArray.length = 0;
-    setTimeout(go, 500);   
+    setTimeout(go, 100);   
 }
