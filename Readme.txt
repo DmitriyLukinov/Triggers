@@ -1,0 +1,1 @@
+Download all these files in the same folder. Then open the file tetris.html in your browser. The program should run successfully.
